@@ -78,7 +78,7 @@ const env = {
     host: opts.get("host") || opts.args()[0] || ip.address(),
     port: opts.get("port") || 55555,
     execTIme: new Date().getTime(),
-    savepath: opts.get("file") || "./udping_result.txt",
+    savepath: opts.get("file") || `./result_${Date.now()}.txt`,
     //何ミリ秒おきに送るか タイムアウト時間はその二倍
     wait: parseInt(opts.get("wait") * 1000) || 1000,
     //回数制限

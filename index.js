@@ -26,7 +26,7 @@ const _env = {
     host: "localhost",
     port: 55555,
     execTIme: new Date().getTime(),
-    savepath: "./udping_result.txt",
+    savepath: `./${Date.now()}_result.txt`,
     //何ミリ秒おきに送るか タイムアウト時間はその二倍
     wait: 1000
 }
