@@ -38,7 +38,7 @@ opts.parse([
         'long' : "host",
         "description" : "server host name",
         "value" : true,
-        "required" : true
+        "required" : false
     },
     {
         "short" : 'f',
