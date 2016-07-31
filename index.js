@@ -44,7 +44,7 @@ class Udping {
                 console.log("Client start!");
                 break;
             case "server":
-                this.server = new Server(this.env.host, this.env.port, this.env.wait * 2);
+                this.server = new Server(this.env.host, this.env.port, this.env.wait * 1.5);
                 console.log("Server start!");
                 break;
             default:
