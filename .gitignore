@@ -39,3 +39,7 @@ jspm_packages
 # result
 result.txt
 udping_result.txt
+
+# .DS_Store
+*/.DS_Store
+.DS_Store
