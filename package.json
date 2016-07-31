@@ -1,6 +1,6 @@
 {
   "name": "udping",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A simple Ping app. with UDP socket.",
   "main": "index.js",
   "scripts": {
