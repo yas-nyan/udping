@@ -1,18 +1,18 @@
-* UDPING
+# UDPING
 
-* instalation
+## instalation
 ```shell:~/
 npm install udping
 ```
 
 
-* EXAMPLE
+## EXAMPLE
 
 ```shell:~/udping/
 npm start 
 ```
 
-** options
+### options
 
 Show this help message
     --help
@@ -31,7 +31,7 @@ use server mode
 use client mode
     -c, --client
 
-* module
+## module
 
 ```node:yourscript.js
 const Udping =require("udping");
