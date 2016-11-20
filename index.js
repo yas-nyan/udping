@@ -21,12 +21,12 @@ const Server = require("./lib/sv.js");
  */
 const _env = {
     //サーバーorクライアント クライアントが初期値。
-    mode:  "client",
+    mode: "client",
     //サーバーのホストネーム IP 
     host: "localhost",
     port: 55555,
     execTIme: new Date().getTime(),
-    savepath: `./${Date.now()}_result.txt`,
+    savepath: `./result_udping/${Date.now()}_result.txt`,
     //何ミリ秒おきに送るか タイムアウト時間はその二倍
     wait: 1000
 }
@@ -56,7 +56,3 @@ class Udping {
 }
 
 module.exports = Udping;
-
-
-
-
