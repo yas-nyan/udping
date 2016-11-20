@@ -54,6 +54,8 @@ env = {
     wait: parseInt(opts.get("wait") * 1000) || 1000,
     //try time default:0(infinity)
     time: opts.get("time") || 0
+    //callback function that is called when timeout or error occures.default is false(primitive).
+    errCallback : yourCallbackFunction || false
 }
 */
 ```

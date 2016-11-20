@@ -1,27 +1,27 @@
 {
-  "name": "udping",
-  "version": "0.1.3",
-  "description": "A simple Ping app. with UDP socket.",
-  "main": "index.js",
-  "scripts": {
-    "test": "node run.js",
-    "start": "node run.js "
-  },
-  "author": "yasnyan",
-  "license": "MIT",
-  "dependencies": {
-    "ip": "^1.1.3",
-    "opts": "^1.2.2"
-  },
-  "repository": {
-    "type": "git",
-    "url": "http://github.com/yas-nyan/udping.git"
-  },
-  "engines": {
-    "node": ">=4.4.7"
-  },
-  "bugs": {
-    "url": "http://github.com/owner/project/issues",
-    "email": "project@hostname.com"
-  }
+    "name": "udping",
+    "version": "0.2.0",
+    "description": "A simple Ping app. with UDP socket.",
+    "main": "index.js",
+    "scripts": {
+        "test": "node run.js",
+        "start": "node run.js "
+    },
+    "author": "yasnyan",
+    "license": "MIT",
+    "dependencies": {
+        "ip": "^1.1.3",
+        "opts": "^1.2.2"
+    },
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/yas-nyan/udping.git"
+    },
+    "engines": {
+        "node": ">=4.4.7"
+    },
+    "bugs": {
+        "url": "http://github.com/owner/project/issues",
+        "email": "project@hostname.com"
+    }
 }
