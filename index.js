@@ -21,14 +21,17 @@ const Server = require("./lib/sv.js");
  */
 const _env = {
     //サーバーorクライアント クライアントが初期値。
-    mode: "client",
+    //mode: "client",
+    mode: "server",
     //サーバーのホストネーム IP 
     host: "localhost",
     port: 55555,
     execTIme: new Date().getTime(),
     savepath: `./result_udping/${Date.now()}_result.txt`,
     //何ミリ秒おきに送るか タイムアウト時間はその二倍
-    wait: 1000
+    wait: 1000,
+    //タイムアウトやエラーが起きた時のcallback。初期設定はプリミティブ型のfalseを入れておく。
+    errCallback: false
 }
 
 
@@ -40,11 +43,11 @@ class Udping {
         //はじめに、クライアントかサーバーかをはっきりさせる。
         switch (this.env.mode) {
             case "client":
-                this.client = new Client(this.env.host, this.env.port, this.env.wait, this.env.savepath, this.env.time);
+                this.client = new Client(this.env.host, this.env.port, this.env.wait, this.env.savepath, this.env.time, this.env.errCallback);
                 console.log("Client start!");
                 break;
             case "server":
-                this.server = new Server(this.env.host, this.env.port, this.env.wait * 1.5);
+                this.server = new Server(this.env.host, this.env.port, this.env.wait * 1.5, this.env.errCallback);
                 console.log("Server start!");
                 break;
             default:

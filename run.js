@@ -82,7 +82,9 @@ const env = {
     //何ミリ秒おきに送るか タイムアウト時間はその二倍
     wait: parseInt(opts.get("wait") * 1000) || 1000,
     //回数制限
-    time: opts.get("time") || 0
+    time: opts.get("time") || 0,
+
+    //CLIで使う時はコールバック使わないと思う。
 }
 
 var udping = new Udping(env);
