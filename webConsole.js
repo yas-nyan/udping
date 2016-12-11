@@ -102,4 +102,6 @@ io.on(`connection`, function(client) {
 
 
 app.use(express.static('html'));
-server.listen(3012);
+var port = 3012;
+server.listen(port);
+console.log(`[UDPING WEBCONSOLE]: webserver is listening.:${port}`)

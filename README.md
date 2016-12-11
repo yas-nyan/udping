@@ -13,6 +13,14 @@ npm install udping --save
 ```
 
 
+* WEB Console
+
+```shell:~/
+npm install udping --global
+
+udping-web
+```
+
 
 
 ## EXAMPLE
