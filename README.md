@@ -1,15 +1,32 @@
 # UDPING
 
 ## instalation
+* CLI tool
+
 ```shell:~/
-npm install udping
+npm install udping --global
 ```
+* npm module
+
+```shell:~/yourNodeAppDir/
+npm install udping --save
+```
+
+
+* WEB Console
+
+```shell:~/
+npm install udping --global
+
+udping-web
+```
+
 
 
 ## EXAMPLE
 
 ```shell:~/udping/
-npm start 
+udping
 ```
 
 ### options
