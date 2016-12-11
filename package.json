@@ -8,7 +8,8 @@
         "start": "node run.js "
     },
     "bin": {
-        "udping": "cli.js"
+        "udping": "cli.js",
+        "udping-web": "webConsole.js"
     },
     "author": "yasnyan",
     "license": "MIT",

@@ -50,14 +50,14 @@ opts.parse([
     {
         "short": "i",
         "long": "wait",
-        "description": "Wait wait seconds between sending each packet.",
+        "description": "wait time  between sending each packet.(second)",
         "value": true,
         "required": false
     },
     {
         "short": "t",
         "long": "time",
-        "description": "Wait wait seconds between sending each packet.",
+        "description": "time in seconds to transmit for (default Infinity)",
         "value": true,
         "required": false
     }
