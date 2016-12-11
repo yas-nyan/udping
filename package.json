@@ -1,11 +1,14 @@
 {
     "name": "udping",
-    "version": "0.3.2",
+    "version": "0.4.0",
     "description": "A simple Ping app. with UDP socket.",
     "main": "index.js",
     "scripts": {
         "test": "node run.js",
         "start": "node run.js "
+    },
+    "bin": {
+        "udping": "cli.js"
     },
     "author": "yasnyan",
     "license": "MIT",
@@ -21,7 +24,6 @@
         "node": ">=4.4.7"
     },
     "bugs": {
-        "url": "http://github.com/owner/project/issues",
-        "email": "project@hostname.com"
+        "url": "http://github.com/yas-nyan/udping/issues"
     }
 }

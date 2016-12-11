@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 /**
  *　UDPINGのノードをスタートする。
  * 
@@ -13,9 +15,7 @@ const opts = require("opts");
  * lib dependences
  * 
  */
-const Client = require("./lib/cl.js");
-const Server = require("./lib/sv.js");
-const Udping = require("./index");
+const Udping = require("./index.js");
 
 opts.parse([
 
