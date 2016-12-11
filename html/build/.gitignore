@@ -1,0 +1,5 @@
+# 結果は無視する
+# .gitignore 以外のファイルを全部無視する。
+*
+!.gitignore
+build.js
